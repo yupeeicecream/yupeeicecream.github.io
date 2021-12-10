@@ -1,0 +1,131 @@
+@charset "utf-8";
+.dm_sp{font-size: 22px; font-weight: bold;}
+/*.shop-item-title{font-size: 18px; font-weight: bold}*/
+/*.shop-item-price{font-size: 16px; font-weight: 400}*/
+
+/*phan can style lai*/
+.cart-header {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+}
+.giohang{
+	position: relative;
+}
+.soluong{
+	color: white;
+	background: #8FA83B;
+	height: 17px;
+	width: 17px;
+	font-size: 12px;
+	margin-left: -2px;
+	position: absolute;
+	left: 28px;
+	top: 8px;
+}
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #909090;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row {
+    display: flex;
+}
+
+.cart-item {
+    width: 45%;
+	
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 18px;
+    color: #909090;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #909090;
+    margin-left: .5em;
+    font-size: 18px;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: 50rem;
+	font-size: 16px;
+	padding: 5px 16px;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 8px;
+    border: none;
+    color: #4B4B4B;
+    padding: 0;
+    text-align: center;
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.cart-row:last-child {
+    border-bottom: 1px solid #909090;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+/*    font-weight: bold;*/
+    font-size: 20px;
+    color: #4B4B4B;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+	color: #8FA83B;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+	padding: 5px 20px;
+    font-size: 20px;
+}
+/*#sl{ font-weight:bold; border-radius: 50%; padding:0 5px; border:1px solid #fff}*/
+.item{ margin: 0px 0}
+/*.shop-item-title{ color:#58732F; font-size: 22px; margin-top: 20px}*/
+/*.shop-item-price{ color: #FFCE00; font-weight: bold; font-size: 22px}*/
+.box-hoverSP{ width: 100%; height: 20%; position: absolute; left: 0; top:50%; background: rgba(44,81,0,.5); opacity: 0; transition: all .5s }
+.box-hoverSP i{ cursor: pointer;margin: 10px; line-height: 100%; display: block}
+.item:hover >.box-hoverSP{ opacity:1; top:40%}
+.item{ position:relative}
